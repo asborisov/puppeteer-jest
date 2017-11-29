@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-jest",
+  "version": "0.0.1",
+  "description": "Integration of Jest and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node prepare.js",
+    "test": "node node_modules/jest/bin/jest.js --maxWorkers=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asborisov/puppeteer-jest.git"
+  },
+  "author": "asborisov (timan.b@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asborisov/puppeteer-jest/issues"
+  },
+  "dependencies": {
+    "jest": "^21.2.1",
+    "puppeteer": "git+https://github.com/GoogleChrome/puppeteer.git"
+  }
+}
